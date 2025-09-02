@@ -28,25 +28,47 @@ Outputs:
 
 Logic Plan:
 START
+
 Print “Are you an intern or a dorm manager?”
+
 Enter option
+
 Print “Enter your full name:”
+
 Enter name
+
 Print “Enter the respective password (EVC_INTERN/EVC_DORM_MANAGER):“
+
 Enter password
+
 Print “Enter your grade level and section:“
+
 Enter level, section
+
 Print “What is your reason to leave the campus? (Go home, school competition, others)
+
 Enter reason
+
 [IF reason = others
+
 Print “Enter your specific reason to leave:”
+
 Enter specific_reason
+
 Print “Your child is requesting to go off-campus. Their reason is:” &specific_reason& “Do you want to let them go? (type y/n or Y/N)”
+
 Enter confirm]
+
 [ELSE
+
 Print “Your child is requesting to go off-campus. Their reason is:” &reason& “Do you want to let them go? (type y/n or Y/N)”
+
 Enter confirm
+
 IF confirm = n/N
+
 Print “Your parent did not agree”
+
 ELSE
+
 Print “The request is approved.”]
