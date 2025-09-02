@@ -8,18 +8,18 @@ Project Objectives:
 -The app will quickly deliver the confirmation of the parent/s of the intern
 
 Planned Features:
--Respective passwords for interns and dorm managers
--Choices of reasons to leave the campus
+-Respective passwords for interns and dorm managers, 
+-Choices of reasons to leave the campus, 
 -Confirmation of the intern’s parent/s
 
 Planned Inputs and Outputs:
 Inputs:
--Option whether you are an intern or a dorm manager
--Respective password depending on the previous input
--Grade level and section of the intern
--Phone numbers and email addresses of the intern’s parent/s
--Reason to leave the campus
--Option whether the parent/s allowed the intern to leave or not
+Option whether you are an intern or a dorm manager, 
+Respective password depending on the previous input, 
+Grade level and section of the intern, 
+Phone numbers and email addresses of the intern’s parent/s, 
+Reason to leave the campus, 
+Option whether the parent/s allowed the intern to leave or not
 
 Outputs:
 -Reason to leave the campus given by the intern
